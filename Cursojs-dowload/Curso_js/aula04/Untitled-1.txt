@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+void main() {
+       int anoNascimento, idade;
+       printf("Digite o ano de nascimento: ");
+       scanf("%i", &anoNascimento);
+
+       idade = 2020 - anoNascimento; 
+      
+       printf("Sua idade: %i ", idade);
+      
+        if (idade >= 18) 
+          printf("\n Tem idade para tirar a Carteira de Habilitação.");
+        else
+        {printf("Nao tem idade pra tirar a carteira"); }
+       return 0; 
+}
